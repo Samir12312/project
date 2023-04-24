@@ -1,0 +1,126 @@
+body{
+    margin: 0;
+    background-image: url(../1613655507_94-p-fon-dlya-prezentatsii-shkolnaya-doska-106.jpg);
+    background-size: cover;
+}
+
+.li1{
+    margin-left: 70px;
+    position: relative;
+    right: 300px;
+}
+
+.carousel{
+   width: 1300px;
+   height: 700px;
+   position: relative;
+   left: 180px;
+   top: 50px;
+   box-shadow: 0px 0px 5px black;
+   border-radius: 30px;
+}
+
+.img1 img{
+    width: 1440px;
+    height: 700px;
+    border-radius: 30px;
+    
+}
+
+.text1 h1{
+    font-size: 25px;
+    color: aliceblue;
+}
+
+.text1{
+    position: relative;
+    top:50px;
+    display: flex;
+    justify-content: center;
+}
+
+.admin{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    border-bottom: 2px;
+    
+}
+.admin h2{
+    color: white;
+    -webkit-animation: coloradmin 3s infinite;
+}
+
+.personal{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card1{
+    background-color: antiquewhite;
+    width:394px;
+    height:174px;
+}
+
+.glav{
+    display: flex;
+    justify-content: space-around;
+}
+
+.cardg img{
+    width: 398px;
+    height: 393px;
+}
+
+.card1 a{
+    margin-bottom: 5px;
+}
+
+@keyframes coloradmin{
+    10%{
+        color: crimson;
+    }
+    20%{
+        color: brown;
+    }
+    30%{
+        color: darkviolet;
+    }
+    40%{
+        color: darkorchid;
+    }
+    50%{
+        color: deeppink;
+    }
+    60%{
+        color: lightsalmon;
+    }
+    70%{
+        color: coral;
+    }
+    80%{
+        color: darkorange;
+    }
+    90%{
+        color: gold;
+    }
+    100%{
+        color: greenyellow;
+    }
+}
+
+
+.intoFirst{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+
+footer{
+    --bs-bg-opacity: 1;
+    background-color: rgba(var(--bs-dark-rgb),var(--bs-bg-opacity))!important;
+}
+
+
+

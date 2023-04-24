@@ -1,0 +1,43 @@
+body{
+    margin: 0;
+    background-image: url(../1613655507_94-p-fon-dlya-prezentatsii-shkolnaya-doska-106.jpg);
+    background-size: cover;
+}
+
+.li1{
+    margin-left: 70px;
+    position: relative;
+    right: 300px;
+}
+
+.cases {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+
+.cases img{
+    height: 250px;
+    width: 300px;
+}
+
+.cases h2{
+    font-size: 20px;
+    color: antiquewhite;
+}
+
+.intoFirst{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+
+footer{
+    --bs-bg-opacity: 1;
+    background-color: rgba(var(--bs-dark-rgb),var(--bs-bg-opacity))!important;
+    width: 100%;
+    position: relative;
+    top: 60px;
+    
+}
